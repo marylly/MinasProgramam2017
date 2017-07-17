@@ -38,13 +38,15 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'sqlite3'
+  gem 'json', '~> 1.7'
+  gem 'cocoapods'
 end
 
 group :production do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pg'
-  gem 'byebug'
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
+  #gem 'byebug'
+  #gem 'web-console', '~> 2.0'
+  #gem 'spring'
 end
 
